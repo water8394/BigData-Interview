@@ -28,7 +28,7 @@
 
 1. [HDFS架构](./docs/HDFS架构.md)
 
-2. Yarn的架构
+2. [Yarn架构](./docs/Yarn架构.md)
 
 3. [MapReduce过程](./docs/MapReduce过程.md)
 
