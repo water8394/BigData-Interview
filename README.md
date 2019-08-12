@@ -26,7 +26,7 @@
 
 ## 一、Hadoop
 
-1. HDFS架构
+1. [HDFS架构](./docs/HDFS架构.md)
 
 2. Yarn的架构
 
@@ -52,27 +52,25 @@
 
 ## 二、Hive
 
-1. 
+1. hive 内部表和外部表的区别
 
-2. hive 内部表和外部表的区别
+2. hive中 sort by / order by 的区别
 
-3. hive中 sort by / order by 的区别
+3. 写HQL: 两张表-> 一张歌曲表,一张专辑表,找出每张专辑的Top100
 
-4. 写HQL: 两张表-> 一张歌曲表,一张专辑表,找出每张专辑的Top100
+4. hive的metastore的三种模式
 
-5. hive的metastore的三种模式
+5. hive 中 join都有哪些
 
-6. hive 中 join都有哪些
+6. Impala 和 hive 的查询有哪些区别
 
-7. Impala 和 hive 的查询有哪些区别
+7. Hive中大表join小表的优化方法
 
-8. Hive中大表join小表的优化方法
+8. Hive Sql 是怎样解析成MR job的
 
-9. Hive Sql 是怎样解析成MR job的
+9. Hive UDF
 
-10. Hive UDF
-
-    
+   
 
 ## 三、Spark
 
