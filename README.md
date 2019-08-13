@@ -52,7 +52,7 @@
 
 ## 二、Hive
 
-1. hive 内部表和外部表的区别
+1. [hive 内部表和外部表的区别](./docs/hive 内部表和外部表的区别.md)
 
 2. hive中 sort by / order by 的区别
 
@@ -74,26 +74,27 @@
 
 ## 三、Spark
 
-1. spark shuffle 介绍
-2. Spark的 partitioner 都有哪些,怎样实现的
-3. spark 有哪几种join,使用场景以及实现原理
-4. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
-5. RDD有哪些特点
-6. 讲一下宽依赖和窄依赖
-7. Spark中的算子都有哪些
-8. RDD的缓存级别都有哪些
-9. RDD 懒加载是什么意思
-10. spark的工作机制,都有哪些角色
-11. spark on yarn 模式下的 cluster模式和 client模式有什么区别
-12. spark运行原理,从提交一个jar到最后返回结果,整个过程
-13. spark的stage是如何划分的
-14. spark的rpc: spark2.0为什么放弃了akka 而用netty?
-15. spark的各种HA,  master/worker/executor/driver/task的ha
-16. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
-17. tungsten引擎: cpu和内存两方面分别说明
-18. 讲一下spark 中的广播变量
-19. 什么是数据倾斜
-20. 怎样去处理数据倾斜
+1. 讲一下spark 的运行架构
+2. spark shuffle 介绍
+3. Spark的 partitioner 都有哪些,怎样实现的
+4. spark 有哪几种join,使用场景以及实现原理
+5. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
+6. RDD有哪些特点
+7. 讲一下宽依赖和窄依赖
+8. Spark中的算子都有哪些
+9. RDD的缓存级别都有哪些
+10. RDD 懒加载是什么意思
+11. spark的工作机制,都有哪些角色
+12. spark on yarn 模式下的 cluster模式和 client模式有什么区别
+13. spark运行原理,从提交一个jar到最后返回结果,整个过程
+14. spark的stage是如何划分的
+15. spark的rpc: spark2.0为什么放弃了akka 而用netty?
+16. spark的各种HA,  master/worker/executor/driver/task的ha
+17. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
+18. tungsten引擎: cpu和内存两方面分别说明
+19. 讲一下spark 中的广播变量
+20. 什么是数据倾斜
+21. 怎样去处理数据倾斜
 
 ## 四、Flink
 
@@ -107,9 +108,9 @@
 
 ## 五、HBase
 
-1. hbase 如何设计 rowkey
-2. hbase 如何利用 phoniex 实现二级索引
-3. 讲一下 Hbase 架构
+1. 讲一下 Hbase 架构
+2. hbase 如何设计 rowkey
+3. hbase 如何利用 phoniex 实现二级索引
 4. hbase 设计的优缺点,对比 nosql 和 关系型数据库
 5. hbase的HA实现,zookeeper在其中的作用
 6. master宕机的时候,哪些操作还能正常工作
