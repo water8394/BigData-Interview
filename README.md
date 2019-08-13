@@ -32,7 +32,7 @@
 
 3. [MapReduce过程](./docs/MapReduce过程.md)
 
-4. Yarn 调度MapReduce
+4. [Yarn 调度MapReduce](./docs/Yarn调度MapReduce.md)
 
 5. hdfs读写流程
 
