@@ -52,7 +52,7 @@
 
 ## 二、Hive
 
-1. [hive 内部表和外部表的区别](./docs/hive 内部表和外部表的区别.md)
+1. [hive 内部表和外部表的区别](./docs/hive内部表和外部表的区别.md)
 
 2. hive中 sort by / order by 的区别
 
