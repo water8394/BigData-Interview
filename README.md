@@ -94,17 +94,19 @@
 16. spark的各种HA,  master/worker/executor/driver/task的ha
 17. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
 18. tungsten引擎: cpu和内存两方面分别说明
-19. 讲一下spark 中的广播变量
+19. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
 20. 什么是数据倾斜
 21. 怎样去处理数据倾斜
 
 ## 四、Flink
 
-1. flink 的 window 实现机制
+1. 讲一下flink的运行架构
 
-2. flink 的 state 实现机制
+2. flink 的 window 实现机制
 
-3. flink中的时间概念 , eventTime 和 processTime的区别
+3. flink 的 state 实现机制
+
+4. flink中的时间概念 , eventTime 和 processTime的区别
 
    
 
@@ -120,31 +122,33 @@
 
 ## 六、Kafka
 
-1. kafka 相比其他消息组件有什么好处?
+1. 讲一下kafka 的架构
 
-2. kafka 实现高吞吐的原理
+2. kafka 相比其他消息组件有什么好处?
 
-3. kafka 的消息传递语义 / kafka怎样保证数据的一致性
+3. kafka 实现高吞吐的原理
 
-4. kafka 与 spark streaming 集成,如何保证 exactly once 语义
+4. kafka 的消息传递语义 / kafka怎样保证数据的一致性
 
-5. ack 有哪几种, 生产中怎样选择?
+5. kafka 与 spark streaming 集成,如何保证 exactly once 语义
 
-6. 如何通过 offset 寻找数据
+6. ack 有哪几种, 生产中怎样选择?
 
-7. 生产者/消费者 各如何监控数据及时消费
+7. 如何通过 offset 寻找数据
 
-8. kafk 的 ISR 机制
+8. 生产者/消费者 各如何监控数据及时消费
 
-9. 如何清理过期数据
+9. kafk 的 ISR 机制
 
-10. 1条message中包含哪些信息
+10. 如何清理过期数据
 
-11. kafka 可以脱离 zookeeper 单独使用吗
+11. 1条message中包含哪些信息
 
-12. kafka有几种数据保留策略
+12. kafka 可以脱离 zookeeper 单独使用吗
 
-13. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
+13. kafka有几种数据保留策略
+
+14. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
 
     
 
