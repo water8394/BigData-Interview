@@ -56,7 +56,7 @@
 
 1. [hive 内部表和外部表的区别](./docs/hive内部表和外部表的区别.md)
 
-2. hive中 sort by / order by 的区别
+2. [hive中 sort by / order by / cluster by / distribute by 的区别](./docs/hive四种排序方式的区别.md)
 
 3. 写HQL: 两张表-> 一张歌曲表,一张专辑表,找出每张专辑的Top100
 
@@ -68,7 +68,7 @@
 
 7. Hive中大表join小表的优化方法
 
-8. Hive Sql 是怎样解析成MR job的
+8. [Hive Sql 是怎样解析成MR job的?](./docs/HiveToMR.md)
 
 9. Hive UDF
 
