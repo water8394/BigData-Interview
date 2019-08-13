@@ -40,15 +40,17 @@
 
 7. [hdfs创建一个文件的流程](./docs/hdfs创建一个文件的流程.md)
 
-8. hadoop1.x 和hadoop 2.x 的区别
+8. [hadoop1.x 和hadoop 2.x 的区别](./docs/hadoop1.x和hadoop2.x的区别.md)
 
-9. [hadoop HA介绍](./docs/hadoopHA介绍.md)
+9. [hadoop1.x的缺点](./docs/hadoop1.x的缺点.md)
 
-10. hadoop的配置文件有哪些,自己实际改过哪些?
+10. [hadoop HA介绍](./docs/hadoopHA介绍.md)
 
-11. 小文件过多会有什么危害,如何避免?
+11. hadoop的配置文件有哪些,自己实际改过哪些?
 
-12. 启动hadoop集群会分别启动哪些进程,各自的作用
+12. 小文件过多会有什么危害,如何避免?
+
+13. 启动hadoop集群会分别启动哪些进程,各自的作用
 
     
 
