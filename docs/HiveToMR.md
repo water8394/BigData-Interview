@@ -16,3 +16,7 @@
    - 剪断Map与Reduce间的Operator的关系
 
 6. **优化任务.** 使用物理优化器对MR任务进行优化,生成最终执行任务
+
+
+
+[参考文章](<https://www.cnblogs.com/Dhouse/p/7132476.html>)

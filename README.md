@@ -38,7 +38,7 @@
 
 6. [hdfs读流程](./docs/hdfs读流程.md)
 
-7. hdfs创建一个文件的流程
+7. [hdfs创建一个文件的流程](./docs/hdfs创建一个文件的流程.md)
 
 8. hadoop1.x 和hadoop 2.x 的区别
 
