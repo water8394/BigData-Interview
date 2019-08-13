@@ -34,19 +34,21 @@
 
 4. [Yarn 调度MapReduce](./docs/Yarn调度MapReduce.md)
 
-5. hdfs读写流程
+5. [hdfs写流程](./docs/hdfs写流程.md)
 
-6. hdfs创建一个文件的流程
+6. [hdfs读流程](./docs/hdfs读流程.md)
 
-7. hadoop1.x 和hadoop 2.x 的区别
+7. hdfs创建一个文件的流程
 
-8. hadoop HA介绍
+8. hadoop1.x 和hadoop 2.x 的区别
 
-9. hadoop的配置文件有哪些,自己实际改过哪些?
+9. [hadoop HA介绍](./docs/hadoopHA介绍.md)
 
-10. 小文件过多会有什么危害,如何避免?
+10. hadoop的配置文件有哪些,自己实际改过哪些?
 
-11. 启动hadoop集群会分别启动哪些进程,各自的作用
+11. 小文件过多会有什么危害,如何避免?
+
+12. 启动hadoop集群会分别启动哪些进程,各自的作用
 
     
 

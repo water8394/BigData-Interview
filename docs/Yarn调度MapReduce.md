@@ -1,6 +1,6 @@
 ## Yarn 调度MapReduce过程
 
-![](D:\Note\big-data-interview\BigData-Interview\pictures\yarn调度mr过程.jpg)
+![](../picturees/yarn调度mr过程.jpg)
 
 1. Mr程序提交到客户端所在的节点（MapReduce）
 2. yarnrunner向Resourcemanager申请一个application。
