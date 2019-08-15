@@ -84,7 +84,7 @@
 4. Spark的 partitioner 都有哪些,怎样实现的
 5. spark 有哪几种join,使用场景以及实现原理
 6. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
-7. RDD有哪些特点
+7. [RDD有哪些特点](./docs/RDD有哪些特点.md)
 8. 讲一下宽依赖和窄依赖
 9. Spark中的算子都有哪些
 10. RDD的缓存级别都有哪些
@@ -129,7 +129,7 @@
 
 ## 六、Kafka
 
-1. [讲一下kafka 的架构](./docs/讲一下kafka 的架构.md)
+1. [讲一下 kafka 的架构](./docs/讲一下kafka的架构.md)
 
 2. kafka 相比其他消息组件有什么好处?
 
