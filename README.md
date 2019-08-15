@@ -80,7 +80,7 @@
 
 1. [讲一下spark 的运行架构](./docs/讲一下spark的运行架构.md)
 2. [一个spark程序的执行流程](./docs/一个spark程序的执行流程.md)
-3. spark shuffle 介绍
+3. [spark的shuffle介绍](./docs/spark的shuffle介绍.md)
 4. Spark的 partitioner 都有哪些,怎样实现的
 5. spark 有哪几种join,使用场景以及实现原理
 6. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
@@ -129,7 +129,7 @@
 
 ## 六、Kafka
 
-1. 讲一下kafka 的架构
+1. [讲一下kafka 的架构](./docs/讲一下kafka 的架构.md)
 
 2. kafka 相比其他消息组件有什么好处?
 
@@ -151,11 +151,13 @@
 
 11. 1条message中包含哪些信息
 
-12. kafka 可以脱离 zookeeper 单独使用吗
+12. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
 
-13. kafka有几种数据保留策略
+13. kafka 可以脱离 zookeeper 单独使用吗
 
-14. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
+14. kafka有几种数据保留策略
+
+15. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
 
     
 
