@@ -105,7 +105,7 @@
 
 1. [讲一下flink的运行架构](./docs/讲一下flink的运行架构.md)
 
-2. [flink 的 window 实现机制](./docs/fink的window实现机制.md)
+2. [flink 的 window 实现机制](./docs/flink的window实现机制.md)
 
 3. [flink的window分类](./docs/flink的window分类.md)
 
