@@ -89,18 +89,17 @@
 9. Spark中的算子都有哪些
 10. RDD的缓存级别都有哪些
 11. RDD 懒加载是什么意思
-12. spark的工作机制,都有哪些角色
-13. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
-14. spark on yarn 模式下的 cluster模式和 client模式有什么区别
-15. spark运行原理,从提交一个jar到最后返回结果,整个过程
-16. spark的stage是如何划分的
-17. spark的rpc: spark2.0为什么放弃了akka 而用netty?
-18. spark的各种HA,  master/worker/executor/driver/task的ha
-19. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
-20. tungsten引擎: cpu和内存两方面分别说明
-21. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
-22. 什么是数据倾斜
-23. 怎样去处理数据倾斜
+12. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
+13. [spark on yarn 模式下的 cluster模式和 client模式有什么区别](./docs/spark中cluster模式和client模式有什么区别.md)
+14. [spark运行原理,从提交一个jar到最后返回结果,整个过程](./docs/spark从提交一个jar到最后返回结果.md)
+15. spark的stage是如何划分的
+16. [spark的rpc: spark2.0为什么放弃了akka 而用netty?](./docs/spark2.0为什么放弃了akka而用netty.md)
+17. spark的各种HA,  master/worker/executor/driver/task的ha
+18. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
+19. tungsten引擎: cpu和内存两方面分别说明
+20. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
+21. 什么是数据倾斜
+22. 怎样去处理数据倾斜
 
 ## 四、Flink
 
