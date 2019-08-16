@@ -66,7 +66,7 @@
 
 5. [hive 中 join都有哪些](./docs/hive中join都有哪些.md)
 
-6. Impala 和 hive 的查询有哪些区别
+6. [Impala 和 hive 的查询有哪些区别](./docs/Impala和hive的查询有哪些区别.md)
 
 7. Hive中大表join小表的优化方法
 
