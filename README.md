@@ -81,7 +81,7 @@
 1. [讲一下spark 的运行架构](./docs/讲一下spark的运行架构.md)
 2. [一个spark程序的执行流程](./docs/一个spark程序的执行流程.md)
 3. [spark的shuffle介绍](./docs/spark的shuffle介绍.md)
-4. Spark的 partitioner 都有哪些,怎样实现的
+4. [Spark的 partitioner 都有哪些?](./docs/Spark的partitioner都有哪些.md)
 5. [spark 有哪几种join](./docs/spark有哪几种join.md)
 6. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
 7. [RDD有哪些特点](./docs/RDD有哪些特点.md)
