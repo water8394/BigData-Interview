@@ -105,15 +105,17 @@
 
 1. [讲一下flink的运行架构](./docs/讲一下flink的运行架构.md)
 
-2. [flink 的 window 实现机制](./docs/flink的window实现机制.md)
+2. flink具体是如何实现exactly one 语义
 
-3. [flink的window分类](./docs/flink的window分类.md)
+3. [flink 的 window 实现机制](./docs/flink的window实现机制.md)
 
-4. flink 的 state 实现机制
+4. [flink的window分类](./docs/flink的window分类.md)
 
-5. [flink 的 state 是存储在哪里的](./docs/flink的state是存储在哪里的.md)
+5. flink 的 state 实现机制
 
-6. flink中的时间概念 , eventTime 和 processTime的区别
+6. [flink 的 state 是存储在哪里的](./docs/flink的state是存储在哪里的.md)
+
+7. flink中的时间概念 , eventTime 和 processTime的区别
 
    
 
@@ -121,11 +123,12 @@
 
 1. [讲一下 Hbase 架构](./docs/讲一下Hbase架构.md)
 2. [hbase 如何设计 rowkey](./docs/hbase如何设计rowkey.md)
-3. hbase 如何利用 phoniex 实现二级索引
-4. hbase 设计的优缺点,对比 nosql 和 关系型数据库
-5. hbase的HA实现,zookeeper在其中的作用
-6. master宕机的时候,哪些操作还能正常工作
-7. hbase的读写流程
+3. 讲一下hbase的存储结构,这样的存储结构有什么优点
+4. hbase 如何利用 phoniex 实现二级索引
+5. hbase 设计的优缺点,对比 nosql 和 关系型数据库
+6. hbase的HA实现,zookeeper在其中的作用
+7. master宕机的时候,哪些操作还能正常工作
+8. hbase的读写流程
 
 ## 六、Kafka
 
