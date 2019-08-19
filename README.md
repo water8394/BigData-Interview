@@ -85,8 +85,8 @@
 5. [spark 有哪几种join](./docs/spark有哪几种join.md)
 6. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
 7. [RDD有哪些特点](./docs/RDD有哪些特点.md)
-8. 讲一下宽依赖和窄依赖
-9. Spark中的算子都有哪些
+8. [讲一下宽依赖和窄依赖](./docs/讲一下宽依赖和窄依赖.md)
+9. [Spark中的算子都有哪些](./docs/Spark中的算子都有哪些.md)
 10. RDD的缓存级别都有哪些
 11. RDD 懒加载是什么意思
 12. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
