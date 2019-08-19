@@ -100,6 +100,7 @@
 20. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
 21. 什么是数据倾斜
 22. 怎样去处理数据倾斜
+23. 如何使用普通的算子实现SparkSQL中的groupBy功能
 
 ## 四、Flink
 
@@ -115,7 +116,11 @@
 
 6. [flink 的 state 是存储在哪里的](./docs/flink的state是存储在哪里的.md)
 
-7. flink中的时间概念 , eventTime 和 processTime的区别
+7. flink是如何实现反压的
+
+8. flink中的时间概念 , eventTime 和 processTime的区别
+
+9. flink中使用eventTime时是否必须指定watermark?
 
    
 
