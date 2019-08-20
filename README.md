@@ -101,6 +101,7 @@
 21. 什么是数据倾斜
 22. 怎样去处理数据倾斜
 23. 如何使用普通的算子实现SparkSQL中的groupBy功能
+24. 分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行
 
 ## 四、Flink
 
@@ -120,9 +121,11 @@
 
 8. flink中的时间概念 , eventTime 和 processTime的区别
 
-9. flink中使用eventTime时是否必须指定watermark?
+9. flink中的session Window是怎样实现的
 
-   
+10. flink中使用eventTime时是否必须指定watermark?
+
+    
 
 ## 五、HBase
 
