@@ -87,7 +87,7 @@
 7. [RDD有哪些特点](./docs/RDD有哪些特点.md)
 8. [讲一下宽依赖和窄依赖](./docs/讲一下宽依赖和窄依赖.md)
 9. [Spark中的算子都有哪些](./docs/Spark中的算子都有哪些.md)
-10. RDD的缓存级别都有哪些
+10. [RDD的缓存级别都有哪些](./docs/RDD的缓存级别都有哪些.md)
 11. RDD 懒加载是什么意思
 12. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
 13. [spark on yarn 模式下的 cluster模式和 client模式有什么区别](./docs/spark中cluster模式和client模式有什么区别.md)
@@ -101,7 +101,7 @@
 21. 什么是数据倾斜
 22. 怎样去处理数据倾斜
 23. 如何使用普通的算子实现SparkSQL中的groupBy功能
-24. 分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行
+24. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
 
 ## 四、Flink
 
@@ -123,7 +123,7 @@
 
 9. flink中的session Window是怎样实现的
 
-10. flink中使用eventTime时是否必须指定watermark?
+10. flink中使用eventTime时是否必须指定watermark
 
     
 
