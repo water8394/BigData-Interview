@@ -50,7 +50,7 @@
 
 12. [小文件过多会有什么危害,如何避免?](./docs/小文件过多会有什么危害.md)
 
-13. 启动hadoop集群会分别启动哪些进程,各自的作用
+13. [启动hadoop集群会分别启动哪些进程,各自的作用](./docs/启动hadoop集群会分别启动哪些进程.md)
 
     
 
@@ -62,7 +62,7 @@
 
 3. 写HQL: 两张表-> 一张歌曲表,一张专辑表,找出每张专辑的Top100
 
-4. hive的metastore的三种模式
+4. [hive的metastore的三种模式](./docs/hive的metastore的三种模式.md)
 
 5. [hive 中 join都有哪些](./docs/hive中join都有哪些.md)
 
