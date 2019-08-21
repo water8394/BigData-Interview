@@ -46,9 +46,9 @@
 
 10. [hadoop HA介绍](./docs/hadoopHA介绍.md)
 
-11. hadoop的配置文件有哪些,自己实际改过哪些?
+11. [hadoop的常用配置文件有哪些,自己实际改过哪些?](./docs/hadoop的常用配置文件有哪些.md)
 
-12. 小文件过多会有什么危害,如何避免?
+12. [小文件过多会有什么危害,如何避免?](./docs/小文件过多会有什么危害.md)
 
 13. 启动hadoop集群会分别启动哪些进程,各自的作用
 
@@ -98,10 +98,9 @@
 18. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
 19. tungsten引擎: cpu和内存两方面分别说明
 20. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
-21. 什么是数据倾斜
-22. 怎样去处理数据倾斜
-23. 如何使用普通的算子实现SparkSQL中的groupBy功能
-24. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
+21. 什么是数据倾斜,怎样去处理数据倾斜
+22. 如何使用普通的算子实现SparkSQL中的groupBy功能
+23. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
 
 ## 四、Flink
 
@@ -113,7 +112,7 @@
 
 4. [flink的window分类](./docs/flink的window分类.md)
 
-5. flink 的 state 实现机制
+5. flink 的 checkpoint 实现机制
 
 6. [flink 的 state 是存储在哪里的](./docs/flink的state是存储在哪里的.md)
 
