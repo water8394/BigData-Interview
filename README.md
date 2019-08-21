@@ -60,19 +60,17 @@
 
 2. [hive中 sort by / order by / cluster by / distribute by 的区别](./docs/hive四种排序方式的区别.md)
 
-3. 写HQL: 两张表-> 一张歌曲表,一张专辑表,找出每张专辑的Top100
+3. [hive的metastore的三种模式](./docs/hive的metastore的三种模式.md)
 
-4. [hive的metastore的三种模式](./docs/hive的metastore的三种模式.md)
+4. [hive 中 join都有哪些](./docs/hive中join都有哪些.md)
 
-5. [hive 中 join都有哪些](./docs/hive中join都有哪些.md)
+5. [Impala 和 hive 的查询有哪些区别](./docs/Impala和hive的查询有哪些区别.md)
 
-6. [Impala 和 hive 的查询有哪些区别](./docs/Impala和hive的查询有哪些区别.md)
+6. [Hive中大表join小表的优化方法](./docs/Hive中大表join小表的优化方法.md)
 
-7. Hive中大表join小表的优化方法
+7. [Hive Sql 是怎样解析成MR job的?](./docs/HiveToMR.md)
 
-8. [Hive Sql 是怎样解析成MR job的?](./docs/HiveToMR.md)
-
-9. Hive UDF
+8. Hive UDF
 
    
 
@@ -92,7 +90,7 @@
 12. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
 13. [spark on yarn 模式下的 cluster模式和 client模式有什么区别](./docs/spark中cluster模式和client模式有什么区别.md)
 14. [spark运行原理,从提交一个jar到最后返回结果,整个过程](./docs/spark从提交一个jar到最后返回结果.md)
-15. spark的stage是如何划分的
+15. [spark的stage是如何划分的](./docs/spark的stage是如何划分的.md)
 16. [spark的rpc: spark2.0为什么放弃了akka 而用netty?](./docs/spark2.0为什么放弃了akka而用netty.md)
 17. spark的各种HA,  master/worker/executor/driver/task的ha
 18. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
