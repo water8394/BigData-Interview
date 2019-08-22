@@ -72,6 +72,8 @@
 
 8. Hive UDF
 
+9. [SQL题: 按照学生科目取每个科目的TopN](./docs/按照学生科目取每个科目的TopN.md)
+
    
 
 ## 三、Spark
