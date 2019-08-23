@@ -120,11 +120,15 @@
 
 7. flink是如何实现反压的
 
-8. flink中的时间概念 , eventTime 和 processTime的区别
+8. [flink的部署模式都有哪些](./docs/flink的部署模式都有哪些.md)
 
-9. flink中的session Window是怎样实现的
+9. [讲一下flink on yarn的部署](./docs/讲一下flinkonyarn的部署.md)
 
-10. flink中使用eventTime时是否必须指定watermark
+10. flink中的时间概念 , eventTime 和 processTime的区别
+
+11. flink中的session Window是怎样实现的
+
+12. flink中使用eventTime时是否必须指定watermark
 
     
 
