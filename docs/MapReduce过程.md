@@ -7,7 +7,7 @@ MapReduce分为两个阶段: **Map** 和  **Ruduce**.
 1. **input**. 在进行map计算之前，mapreduce会根据输入文件计算输入分片（input split），每个输入分片（input split）针对一个map任务
 2. **map**. 就是程序员编写好的map函数了，因此map函数效率相对好控制，而且一般map操作都是本地化操作也就是在数据存储节点上进行
 3. **Partition**. 需要计算每一个map的结果需要发到哪个reduce端,partition数等于reducer数.默认采用HashPartition.
-4. **spill.**此阶段分为sort和combine.首先分区过得数据会经过排序之后写入环形内存缓冲区.在达到阈值之后守护线程将数据溢出分区文件.
+4. **spill**.此阶段分为sort和combine.首先分区过得数据会经过排序之后写入环形内存缓冲区.在达到阈值之后守护线程将数据溢出分区文件.
    - **sort**. 在写入环形缓冲区前,对数据排序.<key,value,partition>格式排序
    - **combine**(可选). 在溢出文件之前,提前开始combine,相当于本地化的reduce操作
 

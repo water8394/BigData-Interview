@@ -10,14 +10,6 @@ Flink作业提交有两种类型:
 
     对于客户端模式而言，你可以启动多个yarn session，一个yarn session模式对应一个JobManager,并按照需求提交作业，同一个Session中可以提交多个Flink作业。如果想要停止Flink Yarn Application，需要通过yarn application -kill命令来停止.
 
-    作者：it_zzy
-
-    链接：https://www.jianshu.com/p/1b05202c4fb6
-
-    来源：简书
-
-    简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
-
   - 分离式模式
 
     对于分离式模式，并不像客户端那样可以启动多个yarn session，如果启动多个，会出现下面的session一直处在等待状态。JobManager的个数只能是一个，同一个Session中可以提交多个Flink作业。如果想要停止Flink Yarn Application，需要通过yarn application -kill命令来停止
