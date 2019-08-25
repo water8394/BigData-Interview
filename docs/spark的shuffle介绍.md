@@ -10,7 +10,7 @@
 
   在reduce阶段(shuffle read)，每个reduce task都会拉取所有map对应的那部分partition数据，那么executor会打开所有临时文件准备网络传输，这里又涉及到大量文件描述符，另外，如果reduce阶段有combiner操作，那么它会把网络中拉到的数据保存在一个`HashMap`中进行合并操作，如果数据量较大，很容易引发OOM操作。
 
-- **Sort Shuffle** 1.1开始
+- **Sort Shuffle** 1.1开始(sort shuffle也经历过优化升级,详细见参考文章1)
 
   ![](D:\Note\big-data-interview\BigData-Interview\pictures\spark-shuffle-v3.png)
 
@@ -24,4 +24,20 @@
 
 
 
-[参考文章](<http://sharkdtu.com/posts/spark-shuffle.html>)
+------
+
+**现在2.1 分为三种writer， 分为 BypassMergeSortShuffleWriter， SortShuffleWriter 和 UnsafeShuffleWriter**
+
+#### 三种Writer的分类
+
+![](../pictures/sparkShuffleWriter.jpg)
+
+
+
+上面是使用哪种 writer 的判断依据， 是否开启 mapSideCombine 这个判断，是因为有些算子会在 map 端先进行一次 combine， 减少传输数据。 因为 BypassMergeSortShuffleWriter 会临时输出Reducer个（分区数目）小文件，所以分区数必须要小于一个阀值，默认是小于200
+
+UnsafeShuffleWriter需要Serializer支持relocation，Serializer支持relocation：原始数据首先被序列化处理，并且再也不需要反序列，在其对应的元数据被排序后，需要Serializer支持relocation，在指定位置读取对应数据
+
+[参考文章1](<http://sharkdtu.com/posts/spark-shuffle.html>)
+
+[参考文章2](<http://spark.coolplayer.net/?p=576>)
