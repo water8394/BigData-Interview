@@ -141,7 +141,8 @@
 5. hbase 设计的优缺点,对比 nosql 和 关系型数据库
 6. hbase的HA实现,zookeeper在其中的作用
 7. master宕机的时候,哪些操作还能正常工作
-8. hbase的读写流程
+8. 讲一下hbase的写数据的流程
+9. 讲一下hbase读数据的流程
 
 ## 六、Kafka
 
@@ -153,27 +154,31 @@
 
 4. kafka 的消息传递语义 / kafka怎样保证数据的一致性
 
-5. kafka 与 spark streaming 集成,如何保证 exactly once 语义
+5. kafka怎样保证不重复消费
 
-6. ack 有哪几种, 生产中怎样选择?
+6. kafka怎样保证不丢失消息
 
-7. 如何通过 offset 寻找数据
+7. kafka 与 spark streaming 集成,如何保证 exactly once 语义
 
-8. 生产者/消费者 各如何监控数据及时消费
+8. ack 有哪几种, 生产中怎样选择?
 
-9. kafk 的 ISR 机制
+9. 如何通过 offset 寻找数据
 
-10. 如何清理过期数据
+10. 生产者/消费者 各如何监控数据及时消费
 
-11. 1条message中包含哪些信息
+11. kafk 的 ISR 机制
 
-12. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
+12. 如何清理过期数据
 
-13. kafka 可以脱离 zookeeper 单独使用吗
+13. 1条message中包含哪些信息
 
-14. kafka有几种数据保留策略
+14. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
 
-15. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
+15. kafka 可以脱离 zookeeper 单独使用吗
+
+16. kafka有几种数据保留策略
+
+17. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
 
     
 
