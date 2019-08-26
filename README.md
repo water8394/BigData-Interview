@@ -153,9 +153,9 @@
 
 4. kafka 的消息传递语义 / kafka怎样保证数据的一致性
 
-5. kafka怎样保证不重复消费
+5. [kafka怎样保证不重复消费](./docs/kafka怎样保证不重复消费.md)
 
-6. kafka怎样保证不丢失消息
+6. [kafka怎样保证不丢失消息](./docs/kafka怎样保证不丢失消息.md)
 
 7. kafka 与 spark streaming 集成,如何保证 exactly once 语义
 
