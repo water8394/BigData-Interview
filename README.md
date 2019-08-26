@@ -100,7 +100,7 @@
 18. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
 19. tungsten引擎: cpu和内存两方面分别说明
 20. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
-21. 什么是数据倾斜,怎样去处理数据倾斜
+21. [什么是数据倾斜,怎样去处理数据倾斜](./docs/怎样去处理数据倾斜.md)
 22. 如何使用普通的算子实现SparkSQL中的groupBy功能
 23. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
 
@@ -124,13 +124,12 @@
 
 9. [讲一下flink on yarn的部署](./docs/讲一下flinkonyarn的部署.md)
 
-10. flink中的时间概念 , eventTime 和 processTime的区别
+10. [flink中的时间概念 , eventTime 和 processTime的区别](./docs/flink中的时间概念.md)
 
 11. flink中的session Window是怎样实现的
 
-12. flink中使用eventTime时是否必须指定watermark
-
     
+
 
 ## 五、HBase
 
