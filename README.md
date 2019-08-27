@@ -95,12 +95,11 @@
 13. [spark运行原理,从提交一个jar到最后返回结果,整个过程](./docs/spark从提交一个jar到最后返回结果.md)
 14. [spark的stage是如何划分的](./docs/spark的stage是如何划分的.md)
 15. [spark的rpc: spark2.0为什么放弃了akka 而用netty?](./docs/spark2.0为什么放弃了akka而用netty.md)
-16. spark的各种HA,  master/worker/executor/driver/task的ha
-17. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
+16. [spark的各种HA,  master/worker/executor/driver/task的ha](./docs/spark的各种HA.md)
+17. [spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化](./docs/spark的内存管理机制.md)
 18. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
 19. [什么是数据倾斜,怎样去处理数据倾斜](./docs/怎样去处理数据倾斜.md)
-20. 如何使用普通的算子实现SparkSQL中的groupBy功能
-21. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
+20. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
 
 ## 四、Flink
 
