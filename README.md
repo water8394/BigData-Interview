@@ -70,7 +70,7 @@
 
 7. [Hive Sql 是怎样解析成MR job的?](./docs/HiveToMR.md)
 
-8. Hive UDF
+8. [Hive UDF简单介绍](./docs/HiveUDF简单介绍.md)
 
 9. [SQL题: 按照学生科目分组, 取每个科目的TopN](./docs/按照学生科目取每个科目的TopN.md)
 
@@ -85,24 +85,22 @@
 3. [spark的shuffle介绍](./docs/spark的shuffle介绍.md)
 4. [Spark的 partitioner 都有哪些?](./docs/Spark的partitioner都有哪些.md)
 5. [spark 有哪几种join](./docs/spark有哪几种join.md)
-6. DAGschedular/Taskscheduler/Schedulerbankend的实现原理
-7. [RDD有哪些特点](./docs/RDD有哪些特点.md)
-8. [讲一下宽依赖和窄依赖](./docs/讲一下宽依赖和窄依赖.md)
-9. [Spark中的算子都有哪些](./docs/Spark中的算子都有哪些.md)
-10. [RDD的缓存级别都有哪些](./docs/RDD的缓存级别都有哪些.md)
-11. [RDD 懒加载是什么意思](./docs/RDD懒加载是什么意思.md)
-12. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
-13. [spark on yarn 模式下的 cluster模式和 client模式有什么区别](./docs/spark中cluster模式和client模式有什么区别.md)
-14. [spark运行原理,从提交一个jar到最后返回结果,整个过程](./docs/spark从提交一个jar到最后返回结果.md)
-15. [spark的stage是如何划分的](./docs/spark的stage是如何划分的.md)
-16. [spark的rpc: spark2.0为什么放弃了akka 而用netty?](./docs/spark2.0为什么放弃了akka而用netty.md)
-17. spark的各种HA,  master/worker/executor/driver/task的ha
-18. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
-19. tungsten引擎: cpu和内存两方面分别说明
-20. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
-21. [什么是数据倾斜,怎样去处理数据倾斜](./docs/怎样去处理数据倾斜.md)
-22. 如何使用普通的算子实现SparkSQL中的groupBy功能
-23. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
+6. [RDD有哪些特点](./docs/RDD有哪些特点.md)
+7. [讲一下宽依赖和窄依赖](./docs/讲一下宽依赖和窄依赖.md)
+8. [Spark中的算子都有哪些](./docs/Spark中的算子都有哪些.md)
+9. [RDD的缓存级别都有哪些](./docs/RDD的缓存级别都有哪些.md)
+10. [RDD 懒加载是什么意思](./docs/RDD懒加载是什么意思.md)
+11. [讲一下spark的几种部署方式](./docs/讲一下spark的几种部署方式.md)
+12. [spark on yarn 模式下的 cluster模式和 client模式有什么区别](./docs/spark中cluster模式和client模式有什么区别.md)
+13. [spark运行原理,从提交一个jar到最后返回结果,整个过程](./docs/spark从提交一个jar到最后返回结果.md)
+14. [spark的stage是如何划分的](./docs/spark的stage是如何划分的.md)
+15. [spark的rpc: spark2.0为什么放弃了akka 而用netty?](./docs/spark2.0为什么放弃了akka而用netty.md)
+16. spark的各种HA,  master/worker/executor/driver/task的ha
+17. spark的内存管理机制,spark 1.6前后分析对比, spark2.0 做出来哪些优化
+18. [讲一下spark 中的广播变量](./docs/spark中的广播变量.md)
+19. [什么是数据倾斜,怎样去处理数据倾斜](./docs/怎样去处理数据倾斜.md)
+20. 如何使用普通的算子实现SparkSQL中的groupBy功能
+21. [分析一下一段spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](./docs/分析一下一段spark代码中哪些部分在Driver端执行.md)
 
 ## 四、Flink
 
