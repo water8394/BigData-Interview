@@ -136,8 +136,8 @@
 4. hbase 如何利用 phoniex 实现二级索引
 5. hbase 设计的优缺点,对比 nosql 和 关系型数据库
 6. hbase的HA实现,zookeeper在其中的作用
-7. master宕机的时候,哪些操作还能正常工作
-8. 讲一下hbase的写数据的流程(./docs/讲一下hbase的写数据的流程.md)
+7. hmaster宕机的时候,哪些操作还能正常工作
+8. [讲一下hbase的写数据的流程](./docs/讲一下hbase的写数据的流程.md)
 9. [讲一下hbase读数据的流程](./docs/讲一下hbase读数据的流程.md)
 
 ## 六、Kafka
