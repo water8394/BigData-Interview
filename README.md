@@ -107,7 +107,7 @@
 
 2. [讲一下flink的作业执行流程](./docs/讲一下flink的作业执行流程.md)
 
-3. flink具体是如何实现exactly one 语义
+3. [flink具体是如何实现exactly once 语义](./docs/flink具体是如何实现exactlyonce语义.md)
 
 4. [flink 的 window 实现机制](./docs/flink的window实现机制.md)
 
@@ -125,7 +125,7 @@
 
 11. [flink中的时间概念 , eventTime 和 processTime的区别](./docs/flink中的时间概念.md)
 
-12. [flink中的session Window怎样使用](./docs/flink中的session Window怎样使用.md)
+12. [flink中的session Window怎样使用](./docs/flink中的sessionWindow怎样使用.md)
 
     
 
