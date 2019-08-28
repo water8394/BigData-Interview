@@ -6,7 +6,7 @@
 
   Flink 提供 exactly-once 的状态（state）投递语义，这为有状态的（stateful）计算提供了准确性保证。也就是状态是不会重复使用的,有且仅有一次消费
 
-![](D:\Note\big-data-interview\BigData-Interview\pictures\flink故障恢复.png)
+![](../pictures/flink故障恢复.png)
 
 ​	这里需要注意的一点是如何理解state语义的exactly-once,并不是说在flink中的所有事件均只会处理一次,而是所有的事件所影响生成的state只有作用一次.
 

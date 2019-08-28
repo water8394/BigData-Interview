@@ -113,19 +113,17 @@
 
 5. [flink的window分类](./docs/flink的window分类.md)
 
-6. flink 的 checkpoint 实现机制
+6. [flink 的 state 是存储在哪里的](./docs/flink的state是存储在哪里的.md)
 
-7. [flink 的 state 是存储在哪里的](./docs/flink的state是存储在哪里的.md)
+7. [flink是如何实现反压的](./docs/flink是如何实现反压的.md)
 
-8. [flink是如何实现反压的](./docs/flink是如何实现反压的.md)
+8. [flink的部署模式都有哪些](./docs/flink的部署模式都有哪些.md)
 
-9. [flink的部署模式都有哪些](./docs/flink的部署模式都有哪些.md)
+9. [讲一下flink on yarn的部署](./docs/讲一下flinkonyarn的部署.md)
 
-10. [讲一下flink on yarn的部署](./docs/讲一下flinkonyarn的部署.md)
+10. [flink中的时间概念 , eventTime 和 processTime的区别](./docs/flink中的时间概念.md)
 
-11. [flink中的时间概念 , eventTime 和 processTime的区别](./docs/flink中的时间概念.md)
-
-12. [flink中的session Window怎样使用](./docs/flink中的sessionWindow怎样使用.md)
+11. [flink中的session Window怎样使用](./docs/flink中的sessionWindow怎样使用.md)
 
     
 
@@ -139,8 +137,8 @@
 5. hbase 设计的优缺点,对比 nosql 和 关系型数据库
 6. hbase的HA实现,zookeeper在其中的作用
 7. master宕机的时候,哪些操作还能正常工作
-8. 讲一下hbase的写数据的流程
-9. 讲一下hbase读数据的流程
+8. 讲一下hbase的写数据的流程(./docs/讲一下hbase的写数据的流程.md)
+9. [讲一下hbase读数据的流程](./docs/讲一下hbase读数据的流程.md)
 
 ## 六、Kafka
 
