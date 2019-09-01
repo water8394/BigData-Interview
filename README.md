@@ -132,13 +132,12 @@
 
 1. [讲一下 Hbase 架构](./docs/讲一下Hbase架构.md)
 2. [hbase 如何设计 rowkey](./docs/hbase如何设计rowkey.md)
-3. 讲一下hbase的存储结构,这样的存储结构有什么优点
+3. [讲一下hbase的存储结构,这样的存储结构有什么优缺点](./docs/讲一下hbase的存储结构.md)
 4. hbase 如何利用 phoniex 实现二级索引
-5. hbase 设计的优缺点,对比 nosql 和 关系型数据库
-6. hbase的HA实现,zookeeper在其中的作用
-7. hmaster宕机的时候,哪些操作还能正常工作
-8. [讲一下hbase的写数据的流程](./docs/讲一下hbase的写数据的流程.md)
-9. [讲一下hbase读数据的流程](./docs/讲一下hbase读数据的流程.md)
+5. hbase的HA实现,zookeeper在其中的作用
+6. hmaster宕机的时候,哪些操作还能正常工作
+7. [讲一下hbase的写数据的流程](./docs/讲一下hbase的写数据的流程.md)
+8. [讲一下hbase读数据的流程](./docs/讲一下hbase读数据的流程.md)
 
 ## 六、Kafka
 
