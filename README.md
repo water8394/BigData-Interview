@@ -133,11 +133,10 @@
 1. [讲一下 Hbase 架构](./docs/讲一下Hbase架构.md)
 2. [hbase 如何设计 rowkey](./docs/hbase如何设计rowkey.md)
 3. [讲一下hbase的存储结构,这样的存储结构有什么优缺点](./docs/讲一下hbase的存储结构.md)
-4. hbase 如何利用 phoniex 实现二级索引
-5. hbase的HA实现,zookeeper在其中的作用
-6. hmaster宕机的时候,哪些操作还能正常工作
-7. [讲一下hbase的写数据的流程](./docs/讲一下hbase的写数据的流程.md)
-8. [讲一下hbase读数据的流程](./docs/讲一下hbase读数据的流程.md)
+4. [hbase的HA实现,zookeeper在其中的作用](./docs/hbase的HA实现.md)
+5. [HMaster宕机的时候,哪些操作还能正常工作](./docs/HMaster宕机.md)
+6. [讲一下hbase的写数据的流程](./docs/讲一下hbase的写数据的流程.md)
+7. [讲一下hbase读数据的流程](./docs/讲一下hbase读数据的流程.md)
 
 ## 六、Kafka
 
@@ -145,35 +144,33 @@
 
 2. kafka 与其他消息组件对比?
 
-3. kafka 实现高吞吐的原理
+3. [kafka 实现高吞吐的原理](./docs/kafka实现高吞吐的原理.md)
 
-4. kafka 的消息传递语义 / kafka怎样保证数据的一致性
+4. [kafka怎样保证不重复消费](./docs/kafka怎样保证不重复消费.md)
 
-5. [kafka怎样保证不重复消费](./docs/kafka怎样保证不重复消费.md)
+5. [kafka怎样保证不丢失消息](./docs/kafka怎样保证不丢失消息.md)
 
-6. [kafka怎样保证不丢失消息](./docs/kafka怎样保证不丢失消息.md)
+6. kafka 与 spark streaming 集成,如何保证 exactly once 语义
 
-7. kafka 与 spark streaming 集成,如何保证 exactly once 语义
+7. [ack 有哪几种, 生产中怎样选择?](./docs/ack有哪几种.md)
 
-8. ack 有哪几种, 生产中怎样选择?
+8. 如何通过 offset 寻找数据
 
-9. 如何通过 offset 寻找数据
+9. 生产者/消费者 各如何监控数据及时消费
 
-10. 生产者/消费者 各如何监控数据及时消费
+10. kafk 的 ISR 机制
 
-11. kafk 的 ISR 机制
+11. 如何清理过期数据
 
-12. 如何清理过期数据
+12. 1条message中包含哪些信息
 
-13. 1条message中包含哪些信息
+13. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
 
-14. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
+14. kafka 可以脱离 zookeeper 单独使用吗
 
-15. kafka 可以脱离 zookeeper 单独使用吗
+15. kafka有几种数据保留策略
 
-16. kafka有几种数据保留策略
-
-17. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
+16. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
 
     
 
