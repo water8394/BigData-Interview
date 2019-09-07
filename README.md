@@ -142,7 +142,7 @@
 
 1. [讲一下 kafka 的架构](./docs/讲一下kafka的架构.md)
 
-2. kafka 与其他消息组件对比?
+2. [kafka 与其他消息组件对比?](./docs/kafka与其他消息组件对比.md)
 
 3. [kafka 实现高吞吐的原理](./docs/kafka实现高吞吐的原理.md)
 
@@ -150,7 +150,7 @@
 
 5. [kafka怎样保证不丢失消息](./docs/kafka怎样保证不丢失消息.md)
 
-6. kafka 与 spark streaming 集成,如何保证 exactly once 语义
+6. [kafka 与 spark streaming 集成,如何保证 exactly once 语义](./docs/kafka与sparkstreaming集成.md)
 
 7. [ack 有哪几种, 生产中怎样选择?](./docs/ack有哪几种.md)
 
