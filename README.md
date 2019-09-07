@@ -154,23 +154,19 @@
 
 7. [ack 有哪几种, 生产中怎样选择?](./docs/ack有哪几种.md)
 
-8. 如何通过 offset 寻找数据
+8. [如何通过 offset 寻找数据](./docs/如何通过offset寻找数据.md)
 
-9. 生产者/消费者 各如何监控数据及时消费
+9. [如何清理过期数据](./docs/如何清理过期数据.md)
 
-10. kafk 的 ISR 机制
+10. [1条message中包含哪些信息](./docs/1条message中包含哪些信息.md)
 
-11. [如何清理过期数据](./docs/如何清理过期数据.md)
+11. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
 
-12. 1条message中包含哪些信息
+12. [kafka 可以脱离 zookeeper 单独使用吗](./docs/kafka可以脱离zookeeper单独使用吗.md)
 
-13. [讲一下zookeeper在kafka中的作用](./docs/讲一下zookeeper在kafka中的作用.md)
+13. [kafka有几种数据保留策略](./docs/kafka有几种数据保留策略.md)
 
-14. kafka 可以脱离 zookeeper 单独使用吗
-
-15. kafka有几种数据保留策略
-
-16. kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?
+14. [kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?](./docs/kafka同时设置了7天和10G清除数据.md)
 
     
 
@@ -178,9 +174,9 @@
 
 1. [zookeeper是什么,都有哪些功能](./docs/zo]okeeper是什么.md)
 2. [zk 有几种部署模式](./docs/zk有几种部署模式.md)
-3. zk 是怎样保证主从节点的状态同步
-4. 说一下 zk 的通知机制
-5. zk 的分布式锁实现方式
+3. [zk 是怎样保证主从节点的状态同步](./docs/zk是怎样保证主从节点的状态同步.md)
+4. [说一下 zk 的通知机制](./docs/说一下zk的通知机制.md)
+5. [zk 的分布式锁实现方式](./docs/zk的分布式锁实现方式.md)
 6. [zk 采用的哪种分布式一致性协议? 还有哪些分布式一致性协议](./docs/大数据生态圈还有哪些选举协议.md)
 7. [讲一下leader 选举过程](./docs/讲一下leader选举过程.md)
 
