@@ -72,6 +72,8 @@
   - reduce算子
   - fold算子
   - aggregate算子
+  - countByValue
+  - countByKey
 
 
 
