@@ -6,7 +6,7 @@
 
 2. **遍历AST,生成基本查询单元QueryBlock**.QueryBlock是一条SQL最基本的组成单元，包括三个部分：输入源，计算过程，输出.
 3. **遍历QueryBlock,生成OperatorTree**.Hive最终生成的MapReduce任务，Map阶段和Reduce阶段均由OperatorTree组成。Operator就是在Map阶段或者Reduce阶段完成单一特定的操作。QueryBlock生成Operator Tree就是遍历上一个过程中生成的QB和QBParseInfo对象的保存语法的属性.
-4. **优化OperatorTree.**大部分逻辑层优化器通过变换OperatorTree，合并操作符，达到减少MapReduce Job，减少shuffle数据量的目的
+4. **优化OperatorTree**.大部分逻辑层优化器通过变换OperatorTree，合并操作符，达到减少MapReduce Job，减少shuffle数据量的目的
 5. **OperatorTree生成MapReduce Job**.遍历OperatorTree,翻译成MR任务.
    - 对输出表生成MoveTask
    - 从OperatorTree的其中一个根节点向下深度优先遍历
