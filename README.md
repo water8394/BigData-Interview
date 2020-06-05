@@ -178,7 +178,7 @@
 
 ## 七、Zookeeper
 
-1. [zookeeper是什么,都有哪些功能](./docs/zo]okeeper是什么.md)
+1. [zookeeper是什么,都有哪些功能](./docs/zookeeper是什么.md)
 2. [zk 有几种部署模式](./docs/zk有几种部署模式.md)
 3. [zk 是怎样保证主从节点的状态同步](./docs/zk是怎样保证主从节点的状态同步.md)
 4. [说一下 zk 的通知机制](./docs/说一下zk的通知机制.md)
