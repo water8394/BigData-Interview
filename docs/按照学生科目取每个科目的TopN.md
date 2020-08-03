@@ -14,7 +14,7 @@ id,name,subject,score
 
 **按照各个科目的成绩排名 取 Top3**
 
-```
+```sql
 select a.* from
 (select id,name,subject,score,row_number() over(partition by subject order by score desc) rank from student) a
 where a.rank <= 3
