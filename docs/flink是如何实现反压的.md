@@ -12,7 +12,7 @@ flink的反压经历了两个发展阶段,分别是基于TCP的反压(<1.5)和�
 
   RS与IC之间通过backlog和credit来确定双方可以发送和接受的数据量的大小以提前感知,而不是通过TCP滑动窗口的形式来确定buffer的大小之后再进行反压
 
-  ![](D:\Note\big-data-interview\BigData-Interview\pictures\flink基于credit的反压.png)
+  ![](../pictures/flink基于credit的反压.png)
 
 
 

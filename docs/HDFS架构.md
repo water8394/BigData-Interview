@@ -37,7 +37,7 @@ Secondary NameNode 并不是 NameNode 的热备机，而是定期从 NameNode �
 
 ### 2. HDFS 2.0 的 HA 实现
 
-![2.0架构图](D:\Note\big-data-interview\BigData-Interview\pictures\hdfs-ha.png)
+![2.0架构图](../pictures/hdfs-ha.png)
 
 - **Active NameNode 和 Standby NameNode**：两台 NameNode 形成互备，一台处于 Active 状态，为主 NameNode，另外一台处于 Standby 状态，为备 NameNode，只有主 NameNode 才能对外提供读写服务；
 
