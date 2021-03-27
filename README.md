@@ -1,4 +1,4 @@
-发一条内推消息，社招、实习生欢迎投递
+###### 发一条内推消息，社招、实习生欢迎投递
 字节跳动校招内推码: 3UWFMRS 
 投递链接: https://jobs.toutiao.com/s/eFCv3cB
 社招：https://job.toutiao.com/s/eFCPHb6
