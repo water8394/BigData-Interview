@@ -19,8 +19,14 @@
 - **fullOuterJoin**
 
   fullOuterJoin会保留两个RDD中所有的key，因此所有的值列都有可能出现缺失的情况，所有的值列都会转为Some对象。
+  
+- **Semi Join**
+  
+  半连接，只返回从与右侧匹配上的值。它也被称为左半连接。
+  
+- **Anti Join**
 
-
+  反连接从左表返回与右表不匹配的值。它也被称为左反连接
 
 [参考文章](<http://www.neilron.xyz/join-in-spark/>)
-
+https://spark.apache.org/docs/3.0.0/sql-ref-syntax-qry-select-join.html
